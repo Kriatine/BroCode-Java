@@ -43,7 +43,6 @@ public class Calculator {
         }
         if(validOperator == true){
             System.out.println(result);
-
         }
 
 
