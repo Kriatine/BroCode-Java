@@ -15,7 +15,7 @@ public class UsefulStringMethods {
         System.out.println(lastindex);
 
         name = name.toUpperCase(); // makes all characters uppercase
-        System.out.println(name);
+        System.out.println(name);   
 
         name = name.toLowerCase();
         System.out.println(name);

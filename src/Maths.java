@@ -14,6 +14,7 @@ public class Maths {
         double floor = Math.floor(3.99);
         double maximum = Math.max(10, 20); // Determines which number is bigger
         double minimum = Math.min(10, 20);
+        double nearest = Math.rint(4.52); // Rounds to nearest integer. If it is equally close to two of them, it will round to the even number
 
         System.out.println(result);
         System.out.println(absolute);
@@ -23,5 +24,6 @@ public class Maths {
         System.out.println(floor);
         System.out.println(maximum);
         System.out.println(minimum);
+        System.out.println(nearest);
     }
 }
